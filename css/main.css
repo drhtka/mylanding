@@ -56,7 +56,7 @@ h3 {
   padding: 60px 0;
 }
 
-/************ header **************/
+/******************************** header ******************************/
 
 header{
   height: 65px;
@@ -73,7 +73,7 @@ header{
 }
 .main-menu > ul > li {
   display: inline-block;
-  
+
 }
 header .main-wrapper{
   display: flex;
@@ -133,7 +133,7 @@ margin: 0 auto;
 }
 .main-board{
   height: 500px;
-  background: url(src/bg.jpg) fixed;
+  background: url(/src/bg.jpg) fixed;
   background-size: cover;
   background-position: 50% -50px;
   position: relative;
@@ -217,7 +217,7 @@ margin: 0 auto;
 }
 
 /************ Services Block **************/
-  
+
 .services__block-item{
   display: flex;
   justify-content: space-between;
@@ -296,3 +296,72 @@ margin: 0 auto;
   color: #FFFFFF;
 }
 
+/******************************** works ******************************/
+
+.works{
+  background: url(src/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.works::after, .blog::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(33, 42, 73, 0.6);
+  z-index: 1;
+}
+
+.works > .main-wrapper, .blog > .main-wrapper{
+  position: relative;
+  z-index: 2;
+}
+
+.works > .main-wrapper > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works h2, .blog h2{
+  color: #FFFFFF;
+}
+
+.works h2 > span::after, .blog h2 > span::after{
+  background: #FFFFFF;
+}
+
+.works__container{
+  flex: 0 0 60%;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.works__container > h3{
+  margin-bottom: 30px;
+}
+.works__container > ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.works__container > ul > li{
+  padding-left: 22px;
+  position: relative;
+  margin-bottom: 15x;
+}
+
+.works__container > ul > li::before {
+  content: '\f105';
+  position: absolute;
+  left: 0;
+  font-family: fontawesome;
+  color: #00d5c3;
+}

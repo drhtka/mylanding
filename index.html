@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <script src="https://kit.fontawesome.com/ca0d22efad.js" crossorigin="anonymous"></script>
   <title>myLanding</title>
 </head>
@@ -16,7 +17,7 @@
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="#services-link">Services</a></li>
-            <li><a href="">How it works</a></li>
+            <li><a href="#works-link">How it works</a></li>
             <li><a href="">Team</a></li>
             <li><a href="">Our blog</a></li>
             <li><a href="">Contact</a></li>
@@ -25,17 +26,17 @@
       </div>
     </header>
     <main>
-      <section class="main-board">
+      <section class="main-board"><!--главная секция-->
         <div class="main-wrapper"><!--выравниваем все по центру-->
           <div class="main-board__left-block">
             <h1 class="">
               A Perfect Landing Page For Your App Showcasing
             </h1>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-              nisi ut aliquip ex ea commodo. 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo.
             </div>
                 <div>
                     <a href="#" class="main-board__button-link">
@@ -54,12 +55,12 @@
                     </a>
                 </div>
           </div>
-          <img src="src/mobile-mockup.png " class="">
+          <img src="/src/mobile-mockup.png " class="">
         </div>
 
 
       </section>
-      <section class="services" id="services-link">
+      <section class="services" id="services-link"><!--секция services-->
         <div class="main-wrapper"> <!--выравниваем все по центру-->
             <h2><span>Services</span></h2>
             <div class="services__block-item"><!--три карточки-->
@@ -69,7 +70,7 @@
                     </div>
                     <h3>Made With Love</h3><!--заголовок-->
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitatipn.
                     </p><!--текст-->
                     <a href="#">Read More</a><!--кнопка-->
@@ -80,7 +81,7 @@
                     </div>
                     <h3>Clean Design</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitatipn.
                     </p>
                     <a href="#">Read More</a>
@@ -91,7 +92,7 @@
                     </div>
                     <h3>Easy To Customize</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitatipn.
                     </p>
                     <a href="#">Read More</a>
@@ -99,6 +100,28 @@
             </div>
         </div>
     </section>
+    <section class="works" id="works-link"><!-- секция how it works-->
+      <div class="main-wrapper">
+          <h2><span>how it works</span></h2>
+          <div>
+              <div class="works__container">
+                  <h3>What you get in this landing page!</h3>
+                  <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                  </p>
+                  <ul>
+                      <li>All the Lorem Ipsum generators on the Internet tendto repeat predefined chunks as necessary.</li>
+                      <li>All the Lorem Ipsum generators on the Internet.</li>
+                      <li>All the Lorem Ipsum generators on the Internet tendto repeat predefined.</li>
+                      <li>All the Lorem Ipsum generators on the Internet.</li>
+                      <li>All the Lorem Ipsum generators on the Internet tendto repeat predefined.</li>
+                  </ul>
+              </div>
+              <img src="src/work-mobile.png">
+          </div>
+      </div>
+  </section>
     </main>
 </body>
 </html>
