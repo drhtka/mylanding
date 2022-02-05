@@ -299,7 +299,7 @@ margin: 0 auto;
 /**************************************** Works **************************************/
 
 .works{
-  background: url(src/banner-bg.jpg) no-repeat;
+  background: url(../src/banner-bg.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -492,19 +492,19 @@ margin: 0 auto;
   text-decoration: none;
 }
 .block-image1 {
-  background: url(src/6-850x850.jpg);
+  background: url../(src/6-850x850.jpg);
 }
 
 .block-image2 {
-  background: url(src/5-850x850.jpg);
+  background: url../(src/5-850x850.jpg);
 }
 
 .block-image3 {
-  background: url(src/2-850x850.jpg);
+  background: url../(src/2-850x850.jpg);
 }
 
 .block-image4 {
-  background: url(src/1-850x850.jpg);
+  background: url../(src/1-850x850.jpg);
 }
 
 .blog-container__image {
@@ -594,7 +594,7 @@ margin: 0 auto;
 
 .form{
   height: 200px;
-  background: url(src/bg.jpg) no-repeat fixed;
+  background: url../(src/bg.jpg) no-repeat fixed;
   background-position: 50% - 50%;
   background-size: cover;
   position: relative;
