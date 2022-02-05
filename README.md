@@ -1,20 +1,20 @@
 
-<h4 align="center">BARBERSHOP - Проект для практики верстки</h4>
-<p>Сайт barbershop</p>
-https://drhtka.github.io/barbershop
+<h4 align="center">Lending - Проект для практики верстки</h4>
+<p>Сайт Lending</p>
+<!-- https://drhtka.github.io/barbershop -->
 
 
 * Создал: [Дмитрий Пересунько]<!--(https://pydjango.ru/).-->
 
 
-<h4 align="center">Сверстанные страницы</h4>
-  <ol>
+<!-- <h4 align="center">Сверстанные страницы</h4> -->
+  <!-- <ol>
       <li>Главная</li>
       <li>Прайс лист</li>
       <li>Магазин </li>
       <li>Карточка перевого товра </li>
       <li>Модальное окно на JS. для входа и регистрации</li>
-  </ol>
+  </ol> -->
 
 <h4 align="center">Применялось</h4>
 
